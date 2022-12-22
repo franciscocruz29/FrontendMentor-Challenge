@@ -27,7 +27,11 @@
             francruz
             <span class="visually-hidden">(to home page)</span>
           </a>
-          <a href="https://github.com/franciscocruz29" class="header__social" target="_blank">
+          <a
+            href="https://github.com/franciscocruz29"
+            class="header__social"
+            target="_blank"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="25"
@@ -43,7 +47,11 @@
               />
             </svg>
           </a>
-          <a href="https://www.linkedin.com/in/francisco-huertas-cruz" class="header__social" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/francisco-huertas-cruz"
+            class="header__social"
+            target="_blank"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="25"
@@ -64,9 +72,54 @@
     </header>
 
     <main id="main">
-      <div class="wrapper">
-        <h1>Nice to meet you! I'm Francisco Cruz.</h1>
-      </div>
+      <section class="hero">
+        <div class="wrapper hero__wrapper bottom-border">
+          <div class="hero__content">
+            <picture>
+              <source
+                media="(min-width: 62.5em)"
+                srcset="/assets/images/image-profile-desktop.webp"
+              />
+              <source
+                media="(min-width: 37.5em)"
+                srcset="/assets/images/image-profile-tablet.webp"
+              />
+              <img
+                class="hero__image"
+                src="/assets/images/image-profile-mobile.webp"
+                alt="picture of Francisco"
+                width-="174"
+                height="383"
+              />
+            </picture>
+            <img
+              class="hero__rings"
+              src="/assets/images/pattern-rings.svg"
+              alt=""
+              width="530"
+              height="129"
+            />
+            <img
+              class="hero__circle"
+              src="/assets/images/pattern-circle.svg"
+              alt=""
+              width="129"
+              height="129"
+            />
+            <div class="hero__text">
+              <h1 class="hero__headline header-xl">
+                Nice to<br />
+                meet you! I'm <span>Francisco Cruz</span>.
+              </h1>
+              <p class="hero__description">
+                Based in Colombia, I'm a front-end developer passionate about
+                building accessible web apps that users love.
+              </p>
+              <a href="#contact" class="hero__contact underline">Contact me</a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="footer"></footer>
