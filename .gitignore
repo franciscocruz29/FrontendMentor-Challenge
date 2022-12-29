@@ -1,2 +1,9 @@
+# dependencies
+/node_modules
+
+# production
+/dist
+
 # Mac/OSX
 .DS_Store
+*.fig
