@@ -12,5 +12,5 @@ This is a solution to the [Single-page developer portfolio](https://www.frontend
 - Babel 
 - Postcss 
 - Webpack 5 
-## Preview
+## Live project link
 [Adam Keyes Developer Portfolio](https://singlepageportfolio.netlify.app)
